@@ -16,6 +16,22 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        let fullName: String = "Sara Ahmad"
+        let phoneNumber: Int = 8675309
+        print(fullName.whisper())
+        print(fullName.shout())
+        print(fullName.pigLatin)
+        print(fullName.points)
+        
+        
+        print(phoneNumber.half())
+        print(phoneNumber.squared)
+        print(phoneNumber.isDivisibleBy(2))
+        print(phoneNumber.halved)
+        
+        print(fullName.unicornLevel)
+        
+        unicornLevelLabel.text = fullName.unicornLevel
     }
 }
 
